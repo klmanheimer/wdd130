@@ -1,0 +1,38 @@
+
+body {
+    background-color: black;
+}
+#circles {
+    display: block;
+    margin: 0px;
+
+}
+main {
+    background-color: grey;
+    display: block;
+    height: 80%;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#desk {
+   border-radius: 50%;
+   width: 200px; 
+   height: 200px;
+   object-fit: cover;
+  } 
+
+#graphic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    object-fit: cover;
+}
+#person {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    object-fit: cover;
+    text-align: right;
+}
+
