@@ -1,0 +1,60 @@
+body {
+    background-color: #6DA9D9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1em;
+    margin-top: -10px;
+}
+
+.author {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: black;
+}
+
+.list li {
+    margin: 5px 0;
+}
+
+.image {
+    width: 150px;
+    margin: 20px 0;
+}
+
+.quote {
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 70%;
+    margin: 20px auto;
+    font-style: italic;
+}
+
+.footer {
+    font-size: 0.9em;
+    margin-top: 10px;
+    color: black;
+}

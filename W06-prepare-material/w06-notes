@@ -1,0 +1,132 @@
+/*CSS Layout: 
+page layout is the process of placing and arranging the text and image content on the page to produce a visually pleasing page. */
+/* float will shift a box to the right or left and allow content to display wrapped around it.*/
+/* example: 
+img {
+    float:right
+}
+*/
+/* position: static; (an element with position static. is not positioned in any special way, it is always positioned according to the normal flow of the page */
+/*Meaning, in normal flow, all items display one after another and if you scrool, they scroll with the page.*/
+
+/* position: relative; (an element with position: relative, is positioned relative to its normal postion.*/
+/* example: 
+div.relative{
+position: relativ; 
+left: 30px;
+border; 3px solid #73AD21;
+}
+*/
+/* position: abosolute; (an element with position: absolute; is positioned to the nearest ancestor- instead of positioned relative to the viewport, like fixed) */
+/* example: 
+div.absolute {
+position: absolute;
+top: 80px;
+right:0;
+width: 200px
+}
+*/ 
+/* position: fixed; (an element with position: fixed, is positioned relative to the viewport, which means it always stays i nthe same place even if the page is scrolled: */ 
+/* example: 
+div.fixed{
+position:fixed;
+bottom:0;
+right:0;
+width: 300px;
+border: 3px solid #73AD21;
+}
+/* flex wrap property ( the "flex-wrap: wrap." spcifies that the flex items will wrap if nesessary. (like photo galleries)*/
+/* example: 
+.flex-container{
+display:flex;
+flex-wrap:wrap;
+}
+/* z-index (its the property name and the value you give it is a number. The bigger number the more toward the font that element will be in the stacking order. */
+
+/* GRID LAYOUT PAR 1*/ 
+/* grid is a layout system that uses rows and columns and is easier to layout your page without having to use floats or positioning.*/ 
+/* example: 
+div{
+display: grid;
+grid-template-columns: 
+100px100px100px
+}
+    <div> 
+     <p>1</p> 
+     <p>2</p>
+     <p>3</p>
+     <p>4</p>
+     <p>5</p>
+     <p>6</p>
+     <p>7</p>
+    </div>
+/* Grid is the value of the display property. When you have an
+element with children you can apply the display: grid declaration to the parent (or container)
+and set up the columns, and the children will become the grid items and be placed into the grid.
+Once the columns are used up on one row, another row will be created. So the grid consists of a
+parent element and one or more child elements.
+Initially the children will be placed into the grid, as grid items, in the order that they were in
+HTML, but later we will see that we can place the children anywhere in the grid that we want
+to. */ 
+
+/* Explicit VS. Implicit*/ 
+/* Implicit (auto) -When the browser automatically placed the grid items
+or children in the order, they were in the spaces available automatically this is implicit. */ 
+/* Explicit (manually) - Explicit
+is when we as the developer define it ourselves. We use a property that set something up or
+places something where we want it. So explicit is we do it deliberately and implicit is when it
+just happens automatically. */
+
+
+/* grid-template-columns: 100px; (this makes all different width.)
+   grid-gap: 10px;  (this gives the gaps between each columns)
+/*
+/* you also can use fr instead of using percentage or px. (its measured as fractions)
+/* if your repeating it you can use "repeat(5, 1fr);" */ 
+
+/* GRID LAYOUT PART 2 */
+/* Talking about explicitly placing items in different areas of the grid*/
+/* the parent and the children only will be placed in the grid. However the grand children WILL NOT be placed. */
+/* you can move the children around: 
+example- 
+video{ 
+grid-colum-start:1
+grid-column-end: 3
+}
+(you also can use)
+video{ 
+ grid-column: 1/3;
+ grid-row: 1/2;
+ }
+ */  
+/* QUIZ: 
+1. CSS LAYOUT: Position will shift an element to the right or left and allow content to display wrapped around the element.
+" float" 
+
+2. Elements in normal floe will have a position value of static.
+    "Static"
+
+3. To change the stacking order, or determine which element will be on top or overlapping elements, use z-axis (withz-index, forward and behind). 
+    "z-axis(with z-index,forward and behind)
+
+4. Grid Layout- Part 1: implicity, children wil lbe plaved into the grid, as grid items, or children in the order they were in the grid template.
+"HTML" 
+
+5. ___ is when we, as the developer, define it ourself manually.
+___ is when it just happens automatically. 
+"Explicity" and "Implicity" 
+
+6. The child element selector will be assigned the declaration 'display:grid'
+"parent" 
+
+7. The number of values given to the property 'grid-template-columns' defines how many columns there will be and their width. 
+"how many columns there will be and their width"
+
+8. Grid Layout -Part 2: When placing items into a grid, only the direct children of the grid container, or parent, can be placed into the grid explicity. 
+"direct children" 
+
+9. When we place elements into the grid we reference the column(s) or row(s), not the lines between. 
+"the strating line and ending line between the columns and rows" 
+
+10. If we want an image to span the first 2 columns, the declaration would look like grid-column: 1/3
+"grid-column: 1/3;" 
