@@ -1,0 +1,38 @@
+body{
+    box-sizing: border-box;
+    width: 80%;
+    height: 500px;
+}
+
+.content{
+    width: 200px;
+    height: 200px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grey{
+    background-color: grey;
+    width: 80%;
+    height: 500px;
+}
+
+.title{
+    text-align: center;
+    width: 100%;
+    justify-content: center; 
+    align-content: center;
+    justify-items: center; 
+    align-items: center; 
+}
+
+img{
+width: 500px; 
+height: 500px;
+}
+
+.name{
+    text-align: right; 
+    color: red; 
+}
+
