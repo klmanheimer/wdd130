@@ -1,0 +1,27 @@
+.product img{
+    max-width: 100%;
+}
+
+#product-gallery {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+    #product-gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #product-gallery {
+        grid-template-columns: 1fr;
+    }
+}
