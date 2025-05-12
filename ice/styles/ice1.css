@@ -1,0 +1,65 @@
+body{ 
+    background-color: #40a0d8;
+}
+
+header{ 
+    text-align:center;
+}
+.title {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 1.5em;
+}
+a:hover{ 
+    color:black;
+}
+
+.quote{ 
+    color:white;
+    text-align:center;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.person{
+    color:white;
+    text-align:center; 
+    font-weight: bold; 
+}
+
+.list{ 
+    text-align:center;
+    width:400px; 
+    margin: 0 auto;
+    color: black; 
+    font-weight: bold;
+}
+
+img{ 
+    display:block; 
+    margin-left: auto; 
+    margin-right:auto; 
+    width: 10%;
+    height: 10%; 
+}
+
+.stuff{ 
+    text-align:center;
+    width: 210px;
+    margin: 0 auto;
+    color:white;
+}
+
+.name{ 
+    color:black; 
+    text-align:center; 
+}
+
+.church{ 
+    color: black;
+    text-align:center; 
+    width: 335px; 
+    margin:0 auto; 
+}
+
