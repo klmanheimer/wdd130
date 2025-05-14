@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body{ 
     background-color: #40a0d8;
 }
@@ -8,12 +10,14 @@ header{
 .title {
     color: white;
     text-decoration: none;
+    font-family: Pt Sans;
     font-weight: bold; 
     font-size: 1.5em;
 }
 a:hover{ 
     color:black;
 }
+
 
 .quote{ 
     color:white;
@@ -22,44 +26,51 @@ a:hover{
     margin: 0 auto;
 }
 
-.person{
+.name{ 
     color:white;
     text-align:center; 
-    font-weight: bold; 
+    margin: 0 auto; 
+    font-family: Pt Sans;
+    font-weight:bold;
 }
 
-.list{ 
+main{ 
+    max-width: 600px; 
+    margin: 0 auto; 
     text-align:center;
-    width:400px; 
+}
+
+
+.list{ 
+    text-align:left;
     margin: 0 auto;
     color: black; 
     font-weight: bold;
+    max-width: 400px; 
 }
+
 
 img{ 
     display:block; 
     margin-left: auto; 
     margin-right:auto; 
-    width: 10%;
-    height: 10%; 
+    width: 20%;
+    height: 20%; 
 }
 
 .stuff{ 
     text-align:center;
-    width: 210px;
+    width: 240px;
     margin: 0 auto;
+    font-family: Merriweather; 
     color:white;
 }
 
-.name{ 
-    color:black; 
-    text-align:center; 
-}
 
-.church{ 
-    color: black;
-    text-align:center; 
+footer{
+    color: black; 
+    text-align:center;
     width: 335px; 
-    margin:0 auto; 
+    margin:0 auto;
 }
 
