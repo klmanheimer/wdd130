@@ -1,0 +1,43 @@
+body{ 
+    margin: 0 auto; 
+    padding: 0;
+    display: block;
+    width: 90%;
+}
+
+main{ 
+    display: flex;
+    display:flex;
+    justify-content:center;
+    gap: 150px;
+    padding: 30px;
+    background-color: grey;
+}
+.background{ 
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+}
+
+
+
+ .desk{ 
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #363636; 
+}
+
+.logo{ 
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #363636;
+}
+
+.person{ 
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #363636; 
+}
